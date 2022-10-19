@@ -220,7 +220,7 @@ body {
 }
 
 .first-footer {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   background-color: rgb(68, 68, 68);
@@ -247,8 +247,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: rgb(204, 204, 204);
-  padding: 2% 2% 2% 2%;
+  background-color: rgb(46, 46, 46);
+  color: #fff;
+  padding: 5% 2% 5% 2%;
 }
 
 .sf1 {
@@ -528,7 +529,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgb(204, 204, 204);
+    background-color: #fff;
+    color: black;
     padding: 2% 2% 2% 2%;
   }
 
