@@ -14,7 +14,7 @@ This project is a very basic website that shows my skills in using HTML, CSS AND
 
 ## Live Demo
 
-[Live Demo Link](https://jonathanmunamire.github.io/Polyglot/)
+[Live Demo Link](https://jonathanmunamire.github.io/Polyglot1/)
 
 ## Loom link
 
