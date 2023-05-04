@@ -51,16 +51,16 @@ const Teachers = [{
 const card = document.querySelector('.teacher-cards');
 
 Teachers.forEach((cards) => {
-    const div = document.createElement('div');
+    const div = document.createElement('ul');
     div.innerHTML += `
-  <div class="card2">
-  <img src="${cards.teacherImage}">
+  <li class="card2">
+  <img src="${cards.teacherImage}" alt="teacher-image">
   <div>
       <h3>${cards.teacherName}</h3>
       <h5>${cards.teacherDomain}</h5>
       <p>${cards.teacherAbout}</p>
   </div>
-  </div>
+  </li>
   `;
     card.append(div);
 });
